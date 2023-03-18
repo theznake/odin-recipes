@@ -1,0 +1,41 @@
+body {
+    font-family: 'Times New Roman', Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#title {
+    background-color: green;
+    font-size: 50px;
+    font-weight: 800;
+    text-align: center;
+    color: orange;
+    font-style: italic;
+}
+
+.recipe-name,
+.generic {
+    color: green;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.para {
+    font-family: Arial, Helvetica;   
+    font-size: 20px; 
+}
+
+.item {
+    font-style: italic;
+    font-size: 18px;
+}
+
+.imagen {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mini {
+    text-indent: 3%;
+}
+
