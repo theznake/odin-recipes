@@ -85,28 +85,33 @@ html {
     /*justify-content: space-around;*/
     border: 3px solid rgb(8, 80, 23);
     margin: auto; 
-    flex-wrap: wrap;
+    /*flex-wrap: wrap;*/
     gap: 1rem;
+    
   }
 
   .recipe-container > div {
-    flex: 1;
-  }
-
-  .carbonara {
     border: 1px solid #fff;  /* For debugging */
+    font-size: 30px;
+    text-align: center;
+    flex: 1;
+    min-width: 0px;
+  }
+  
+  /*.carbonara {
+    border: 1px solid #fff;  /* For debugging *
     font-size: 30px;
     text-align: center;
   }
 
   .mazamorra {
-    border: 1px solid #fff;  /* For debugging */
+    border: 1px solid #fff;  /* For debugging *
     font-size: 30px;
     text-align: center;
   }
 
   .gulab {
-    border: 1px solid #fff;  /* For debugging */
+    border: 1px solid #fff;  /* For debugging *
     font-size: 30px; 
     text-align: center;
-  }
+  }*/
